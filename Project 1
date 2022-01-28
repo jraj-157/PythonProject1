@@ -1,0 +1,15 @@
+a = input("enter first number :")
+operator = input("enter operator (+,-,*,/,%) : ")
+b = input("enter second number :")
+if operator == "+":
+    print(int(a)+int(b))
+elif operator == "-":
+    print(int(a)-int(b))
+elif operator == "*":
+      print(int(a)*int(b))
+elif operator == "/":
+    print(int(a)/int(b))
+elif operator == "%":
+      print(int(a)%int(b))   
+else:
+    print ("aukat ke bahar")     
